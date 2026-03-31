@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    themes.xml
+    Required by the system for the app's splash/launch theme.
+    We use a Material3 NoActionBar theme since the app
+    manages its own toolbar via Compose TopAppBar.
+-->
+<resources>
+    <style name="Theme.CafeBilling" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- The window background before Compose takes over -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
